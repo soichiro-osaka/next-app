@@ -1,0 +1,88 @@
+.header_div {
+    position: relative;
+    height: 500px;
+}
+.header_h1 {
+    font-size: 7rem;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-family: 'Cherry Swash', cursive;
+    animation-name: h1-Anime;
+    animation-duration: 3s;
+}
+@keyframes  h1-Anime{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.color_bar {
+    position: absolute;
+    right: 0;
+    height: 100px;
+}
+.red_bar {
+    width: 700px;
+    top: 0;
+    background-color: rgba(214, 7, 7, 0.95);
+    animation-name: red-bar-Anime;
+    animation-duration: 2s;
+}
+@keyframes  red-bar-Anime{
+    from {
+        width: 0;
+    }
+    to {
+        width: 700px;
+    }
+}
+.green_bar {
+    width: 550px;
+    top: 70px;
+    background-color: rgb(18, 180, 18);
+    animation-name: green-bar-Anime;
+    animation-duration: 1.5s;
+}
+@keyframes  green-bar-Anime{
+    from {
+        width: 0;
+    }
+    to {
+        width: 550px;
+    }
+}
+.yellow_bar {
+    width: 370px;
+    top: 210px;
+    background-color: rgba(219, 199, 12, 0.801);
+    animation-name: yellow-bar-Anime;
+    animation-duration: 1.2s;
+}
+@keyframes  yellow-bar-Anime{
+    from {
+        width: 0;
+    }
+    to {
+        width: 370px;
+    }
+}
+.brown_bar {
+    width: 270px;
+    top: 380px;
+    background-color: rgba(116, 77, 18, 0.801);
+    animation-name: brown-bar-Anime;
+    animation-duration: 1s;
+}
+@keyframes  brown-bar-Anime{
+    from {
+        width: 0;
+    }
+    to {
+        width: 270px;
+    }
+}
