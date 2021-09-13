@@ -1,0 +1,78 @@
+.heading {
+    text-align: center;
+    position: relative;
+    width: 400px;
+    font-size: 5rem;
+    margin: 70px auto;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0 50px;
+    color: rgb(43, 54, 78);
+}
+.heading::before,
+.heading::after {
+    position: absolute;
+    content: '';
+    width: 200px;
+    border-top: 3px solid;
+    top: 30px;
+}
+.heading::before {
+    left: -150px;
+}
+.heading::after {
+    right: -150px;
+}
+.contact {
+    width: 900px;
+    height: 450px;
+    margin: 30px auto;
+}
+.contact > form {
+    width: 700px;
+    margin: 20px auto;
+}
+.contact_div label {
+    font-size: 1.5rem;
+    display: block;
+    color: #333;
+    margin-bottom: 10px;
+}
+.div_inputs {
+    display: flex;
+}
+.div_inputs input {
+    width: 340px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.name_input {
+    flex: 1;
+}
+.email_input {
+    flex: 1;
+    margin-left: 20px;
+}
+.div_textarea {
+    margin-top: 30px;
+}
+.div_textarea textarea {
+    width: 700px;
+    height: 200px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.contact_div button {
+    padding: 10px 60px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    display: block;
+    margin: 40px auto;
+    color: #fff;
+    background: linear-gradient(to right, #5bbee5, #52ddae);
+}
+.contact_div button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

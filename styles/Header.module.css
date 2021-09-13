@@ -29,7 +29,7 @@
 .red_bar {
     width: 700px;
     top: 0;
-    background-color: rgba(214, 7, 7, 0.95);
+    background-color: rgba(247, 83, 83, 0.952);
     animation-name: red-bar-Anime;
     animation-duration: 2s;
 }
@@ -44,7 +44,7 @@
 .green_bar {
     width: 550px;
     top: 70px;
-    background-color: rgb(18, 180, 18);
+    background-color: rgba(120, 247, 120, 0.932);
     animation-name: green-bar-Anime;
     animation-duration: 1.5s;
 }
@@ -59,7 +59,7 @@
 .yellow_bar {
     width: 370px;
     top: 210px;
-    background-color: rgba(219, 199, 12, 0.801);
+    background-color: rgba(247, 231, 88, 0.801);
     animation-name: yellow-bar-Anime;
     animation-duration: 1.2s;
 }
@@ -74,7 +74,7 @@
 .brown_bar {
     width: 270px;
     top: 380px;
-    background-color: rgba(116, 77, 18, 0.801);
+    background-color: rgba(255, 197, 111, 0.801);
     animation-name: brown-bar-Anime;
     animation-duration: 1s;
 }
