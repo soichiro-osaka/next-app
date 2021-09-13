@@ -9,7 +9,7 @@ export default function Header(){
     return(
         <>
         <div className={styles.header_div}>
-            <h1 className={styles.header_h1}>Welcom to<br/>My Portfolio!</h1>
+            <h1 className={styles.header_h1}>Welcome to<br/>My Portfolio!</h1>
             <div className={colorRed}></div>
             <div className={colorGreen}></div>
             <div className={colorYellow}></div>

@@ -30,17 +30,17 @@ export default function AboutMe() {
             <h3 className={styles.skills}>SKILLS</h3>
             <div className={styles.container}>
                 <div className={styles.item}>
-                    <i class="fas fa-code"></i>
+                    <i className="fas fa-code"></i>
                     <h3>HTML/CSSコーディング</h3>
                     <p>丁寧かつ綺麗なコーディングを心がけます。</p>
                 </div>
                 <div className={styles.item}>
-                    <i class="fab fa-js"></i>
+                    <i className="fab fa-js"></i>
                     <h3>Reactjsの利用</h3>
                     <p>モダンな技術を積極的に活用します。</p>
                 </div>
                 <div className={styles.item}>
-                    <i class="fas fa-book"></i>
+                    <i className="fas fa-book"></i>
                     <h3>読書による幅広い知識</h3>
                     <p>文理問わず様々なジャンルについての基礎知識を身につけております。</p>
                 </div>
