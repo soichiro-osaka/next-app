@@ -2,23 +2,23 @@
     padding: 30px 50px;
 }
 .heading {
-    text-align: center;
     position: relative;
     width: 400px;
-    font-size: 5rem;
+    padding: 0 50px;
     margin: 100px auto;
     letter-spacing: 1px;
     font-weight: bold;
-    padding: 0 50px;
-    color: rgb(43, 54, 78);
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(34, 34, 77);
 }
 .heading::before,
 .heading::after {
     position: absolute;
     content: '';
+    top: 30px;
     width: 200px;
     border-top: 3px solid;
-    top: 30px;
 }
 .heading::before {
     left: -150px;
@@ -27,11 +27,13 @@
     right: -150px;
 }
 .profile {
-    margin: 50px auto 0;
-    background-color: rgb(225, 242, 247);
-    padding: 20px 50px;
-    width: 1000px;
     display: table;
+    width: 90%;
+    padding: 20px 50px;
+    margin: 50px auto 0;
+    background-color: rgb(239, 246, 248);
+    border: 1px solid #aaa;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 .image_div {
     display: table-cell;
@@ -42,30 +44,29 @@
     overflow: hidden;
 }
 .description {
-    vertical-align: middle;
     display: table-cell;
-    font-size: 2rem;
-    font-weight: bold;
-    padding-left: 100px;
-    line-height: 2;
     width: 600px;
+    padding-left: 100px;
+    vertical-align: middle;
+    line-height: 1.8;
     border-left: 2px solid white;
 }
 .description > h3 {
-    color: #555;
+    margin: 20px 0 0;
+    color: rgb(43, 54, 78);
     letter-spacing: 2px;
     font-size: 4rem;
     line-height: 1;
-    margin: 20px 0 0;
 }
 .description span {
     color: #aaa;
     font-size: 2rem;
 }
 .description > ul {
-    color: rgb(100, 112, 150);
-    list-style: none;
     padding: 0;
+    color: rgb(43, 54, 78);
+    list-style: none;
+    font-size: 1.5rem;
 }
 .description li {
     border-bottom: 1px solid white;
@@ -73,27 +74,30 @@
 .description > p {
     color: #555;
     font-size: 1.6rem;
+    line-height: 2;
 }
 .skills {
+    width: 90%;
+    margin: 70px auto 30px;
+    background-color: rgb(34, 34, 77);
     font-style: italic;
     font-size: 4rem;
     text-align: center;
-    margin: 70px 0 30px;
-    color: rgb(103, 118, 250);
+    color: #fff;
 }
 .container {
-    width: 990px;
-    margin: 30px auto;
     display: grid;
-    grid-template-columns: 330px 330px 330px;
+    width: 90%;
+    margin: 30px auto;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 300px;
 }
 .item {
+    margin: 30px;
+    padding: 20px;
     border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgba(200, 200, 200, 0.5);
-    margin: 30px;
-    padding: 20px;
     text-align: center;
     transition: 0.2s;
 }

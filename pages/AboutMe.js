@@ -18,7 +18,7 @@ export default function AboutMe() {
                     <ul>
                         <li>四天王寺大学経営学部経営学科四年</li>
                         <li>大阪府出身</li>
-                        <li>趣味はサーフィン。最近ボクシングも始めた。</li>
+                        <li>趣味はサーフィン。最近ボクシングも始めました。</li>
                     </ul>
                     <p>
                         webフロントエンドについて学び、いずれはサーバーサイドやモバイルの技術も身につけたいと考えている。
@@ -36,7 +36,7 @@ export default function AboutMe() {
                 </div>
                 <div className={styles.item}>
                     <i className="fab fa-js"></i>
-                    <h3>Reactjsの利用</h3>
+                    <h3>Reactjs & Nextjsの利用</h3>
                     <p>モダンな技術を積極的に活用します。</p>
                 </div>
                 <div className={styles.item}>

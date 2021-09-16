@@ -1,0 +1,9 @@
+.header_div {
+    padding: 5px 40px;
+    background-color: rgb(112, 211, 241);
+}
+.header_h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Amatic SC', cursive;
+}

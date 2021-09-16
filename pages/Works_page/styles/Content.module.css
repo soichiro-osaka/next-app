@@ -1,0 +1,48 @@
+.content {
+    height: 600px;
+    width: 100%;
+}
+.weather_input {
+    display: flex;
+    padding: 20px;
+}
+.weather_input input {
+    width: 40%;
+    padding: 10px 20px;
+    border-color: #aaa;
+    font-size: 2.5rem;
+}
+.weather_input button {
+    width: 20%;
+    background-color: rgb(247, 51, 93);
+    border: none;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.arrow_div {
+    position: relative;
+    margin: 140px 30px;
+    padding-left: 150px;
+    font-size: 3rem;
+}
+.arrow_div i {
+    position: absolute;
+    top: -120px;
+    left: 150px;
+    font-size: 3em;
+    color: rgb(37, 37, 250);
+    animation-name: updown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes updown{
+    0% {
+        top: -130px;
+    }
+    50% {
+        top: -150px;
+    }
+    100% {
+        top: -130px;
+    }
+}

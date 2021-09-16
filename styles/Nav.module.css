@@ -1,12 +1,12 @@
 .nav {
     width: 100%;
     font-size: 3rem;
-    background-color: rgb(192, 209, 240);
+    background-color: rgb(34, 34, 77);
     text-align: center;
   }
   .nav_div {
-    margin: 0 auto;
     width: 100%;
+    margin: 0 auto;
   }
   .nav_li {
     display: inline-block;
@@ -14,13 +14,13 @@
   }
   .nav_a {
     display: inline-block;
+    padding: 32px 80px;
     letter-spacing: 2px;
     font-weight: bold;
-    padding: 32px 80px;
     transition: 0.2s;
     color: #fff;
   }
   .nav_a:hover {
     cursor: pointer;
-    background-color: rgb(49, 140, 245);
+    background-color: rgb(92, 111, 165);
   }

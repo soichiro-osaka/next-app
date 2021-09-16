@@ -15,27 +15,16 @@ export default function Home() {
       <link rel="icon" href="/favicon.ico" />
       <link href="https://fonts.googleapis.com/css?family=Cherry+Swash:700" rel="stylesheet"/>
       <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet"/>
     </Head>
     <Header/>
     <Nav/>
     <AboutMe/>
     <Works/>
     <Contact/>
-    <footer>
+    <footer className={styles.footer}>
       <p>©️ 2021 Soichiro Kawamura</p>
     </footer>
-    <style jsx>{`
-      footer {
-        background-color: rgb(34, 34, 77);
-        height: 100px;
-        text-align: center;
-      }
-      footer p {
-        padding-top: 60px;
-        color: #fff;
-      }
-    `}
-    </style>
     </>
   )
 }

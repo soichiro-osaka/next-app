@@ -1,25 +1,25 @@
 .works_div {
-    background-color: #eee;
     padding: 30px 50px;
+    background-color: #eee;
 }
 .heading {
-    text-align: center;
     position: relative;
     width: 400px;
-    font-size: 5rem;
     margin: 70px auto;
+    padding: 0 50px;
+    font-size: 5rem;
+    text-align: center;
     letter-spacing: 1px;
     font-weight: bold;
-    padding: 0 50px;
-    color: rgb(43, 54, 78);
+    color: rgb(34, 34, 77);
 }
 .heading::before,
 .heading::after {
     position: absolute;
     content: '';
+    top: 30px;
     width: 200px;
     border-top: 3px solid;
-    top: 30px;
 }
 .heading::before {
     left: -150px;
@@ -28,6 +28,27 @@
     right: -150px;
 }
 .content {
-    font-size: 4rem;
     text-align: center;
+    font-size: 2rem;
+}
+.content_link {
+    display: table;
+    width: 70%;
+    margin: 20px auto;
+    font-size: 2rem;
+}
+.item {
+    display: table-cell;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid gray;
+    vertical-align: middle;
+    text-align: center;
+}
+.content_link a {
+    transition: 0.3s;
+}
+.content_link a:hover {
+    color: rgb(83, 209, 231);
+    text-decoration: underline;
 }

@@ -1,21 +1,21 @@
 .heading {
-    text-align: center;
     position: relative;
     width: 400px;
-    font-size: 5rem;
+    padding: 0 50px;
     margin: 70px auto;
     letter-spacing: 1px;
+    font-size: 5rem;
     font-weight: bold;
-    padding: 0 50px;
-    color: rgb(43, 54, 78);
+    text-align: center;
+    color: rgb(34, 34, 77);
 }
 .heading::before,
 .heading::after {
     position: absolute;
     content: '';
+    top: 30px;
     width: 200px;
     border-top: 3px solid;
-    top: 30px;
 }
 .heading::before {
     left: -150px;
@@ -33,10 +33,10 @@
     margin: 20px auto;
 }
 .contact_div label {
-    font-size: 1.5rem;
     display: block;
-    color: #333;
     margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
 }
 .div_inputs {
     display: flex;
@@ -63,14 +63,14 @@
     font-size: 1.5rem;
 }
 .contact_div button {
+    display: block;
+    margin: 40px auto;
     padding: 10px 60px;
+    background: linear-gradient(to right, #5bbee5, #52ddae);
     border-radius: 20px;
     border: 2px solid #ccc;
     font-size: 1.5rem;
-    display: block;
-    margin: 40px auto;
     color: #fff;
-    background: linear-gradient(to right, #5bbee5, #52ddae);
 }
 .contact_div button:hover {
     cursor: pointer;

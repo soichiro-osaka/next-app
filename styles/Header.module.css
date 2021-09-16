@@ -3,13 +3,13 @@
     height: 500px;
 }
 .header_h1 {
-    font-size: 7rem;
     margin-left: 50px;
     margin-top: 20px;
     padding-top: 100px;
     letter-spacing: 1px;
     line-height: 2;
     font-family: 'Cherry Swash', cursive;
+    font-size: 7rem;
     animation-name: h1-Anime;
     animation-duration: 3s;
 }
